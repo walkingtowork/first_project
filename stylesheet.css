@@ -1,0 +1,50 @@
+body {
+	background: #CCFFFF;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: blue;
+}
+
+#top {
+	font-family: Verdana;
+	background: #996633;
+	width: 300px;
+	height: 30px;
+	color: white;
+	margin: 0 auto;
+	padding: 5px;
+	float: clear;
+	z-index: 1;
+	text-align: center;
+}
+
+div div {
+	display: inline-block;
+}
+
+.left {
+	width: 19%;
+	height: 400px;
+	float: left;
+	border: 2px black solid;
+	border-radius: 5px;
+}
+
+.right {
+	font-family: Verdana;
+	font-size: 14px;
+	width: 80%;
+	height: 400px;
+	background: black;
+	color: white;
+	border-radius: 5px;
+	position: relative;
+	float: right;
+}
+
