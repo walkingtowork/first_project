@@ -1,7 +1,6 @@
 body {
 	background: url('images/forbidden_city.jpg') no-repeat center center fixed;
 	background-size: cover;
-	/*background: #CCFFFF*/;
 	/*background: url('images/217_622085842909_7038_n.jpg') no-repeat center center fixed;*/
 }
 
@@ -15,54 +14,54 @@ a:hover {
 }
 
 li {
-	list-style-type: none;
+    list-style-type: none;
 }
 
-#top {
-	font-family: "Helvetica Neue";
-/*	border: 2px black solid;*/
-	width: 300px;
-	height: 30px;
-	color: black;
-	margin: 0 auto;
-	padding: 5px;
-	float: clear;
-	z-index: 1;
-	text-align: center;
-	border-radius: 5px;
-	margin-bottom: 5px;
-	vertical-align: middle;
-	line-height: 30px;
+header {
+    text-align: center;
+    margin: 0 auto;
+    width: 75%;
+    padding: 0 1%;
+    background: rgba(0, 0, 0, .33);
+    border-radius: 5px;
 }
 
-div div {
-	display: inline-block;
-	margin-left: 15px;
+nav ul li {
+    list-style-type: none;
+    display:inline-block;
+    margin: 0 50px;
+    font-family: Lucida grande;
+    vertical-align: middle;
+    line-height: 30px;
+    color: whitesmoke;
+
 }
 
-
-
-.left {
+/*.left {
 	width: 19%;
 	height: 400px;
 	float: left;
-	/*border: 2px black solid;*/
+	border: 2px black solid;
 	border-radius: 5px;
 	font-family: "Helvetica Neue";
 	padding: 1%;
-}
+}*/
 
 .right {
-	font-family: "Helvetica Neue";
+	/*border: 2px black solid;*/
+    font-family: lucida grande;
 	font-size: 14px;
 	width: 75%;
-	height: 400px;
-	/*border: 2px black solid;*/
+	height: 350px;
 	color: black;
 	border-radius: 5px;
-	position: relative;
-	float: right;
 	padding: 1%;
+	text-align: center;
+    background: rgba(0, 0, 0, .33);
+    color: whitesmoke;
+    margin: 0 auto;
+    /*position: relative;*/
+    /*float: right;*/
 }
 
 #buttons {
@@ -70,6 +69,13 @@ div div {
 	margin: 0 auto;
 	text-align: center;
 }
-.cf {
-    clear: both;
+
+#japanese {
+    /*border: 2px black solid;*/
+    margin: 0, auto;
+    color: white;
+    text-align: center;
 }
+/*.cf {
+    clear: both;
+}*/
